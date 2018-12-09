@@ -1,29 +1,19 @@
-$soofa-primary-color-dark: #d43328;
-$soofa-primary-color-light: #ffedeb;
 
-$soofa-red: #e11600;
-$soofa-gray: #555555;
-$soofa-white: #ffffff;
-$soofa-off-white: #f7f5f5;
-$soofa-accent-blue: #44abc7;
-$soofa-link-pink: #ff6858;
-
-%soofa-gray {
-  color: $soofa-gray;
+html{
+  font-size: 62.5%;
 }
 
 
-h1 {
-  // background-color: #f7f5f5 !important;
-  color: white;
-  font-size: 4rem;
-  font-weight: 400;
-  font-family: Arial, sans-serif;
-}
 body {
-  // background-color: #f7f5f5 !important;
-  // color: $soofa-gray;
-  // font-size: 15px;
-  // font-weight: 400;
+  font-size: 1.6rem;
   font-family: Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+button:disabled {
+  cursor: default;
 }
